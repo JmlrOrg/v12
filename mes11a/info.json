@@ -1,0 +1,17 @@
+{
+    "abstract": "We propose a sequential sampling policy for noisy discrete global optimization and ranking and selection, in which we aim to efficiently explore a finite set of alternatives before selecting an alternative as best when exploration stops. Each alternative may be characterized by a multi-dimensional vector of categorical and numerical attributes and has independent normal rewards. We use a Bayesian probability model for the unknown reward of each alternative and follow a fully sequential sampling policy called the knowledge-gradient policy. This policy myopically optimizes the expected increment in the value of sampling information in each time period. We propose a hierarchical aggregation technique that uses the common features shared by alternatives to learn about many alternatives from even a single measurement. This approach greatly reduces the measurement effort required, but it requires some prior knowledge on the smoothness of the function in the form of an aggregation function and computational issues limit the number of alternatives that can be easily considered to the thousands. We prove that our policy is consistent, finding a globally optimal alternative when given enough measurements, and show through simulations that it performs competitively with or significantly better than other policies.",
+    "authors": [
+        "Martijn R.K. Mes",
+        "Warren B. Powell",
+        "Peter I. Frazier"
+    ],
+    "id": "mes11a",
+    "issue": 89,
+    "pages": [
+        2931,
+        2974
+    ],
+    "title": "Hierarchical Knowledge Gradient for Sequential Sampling",
+    "volume": "12",
+    "year": "2011"
+}

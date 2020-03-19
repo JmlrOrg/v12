@@ -1,0 +1,16 @@
+{
+    "abstract": "The Indian buffet process is a stochastic process defining a probability distribution over equivalence classes of sparse binary matrices with a finite number of rows and an unbounded number of columns. This distribution is suitable for use as a prior in probabilistic models that represent objects using a potentially infinite array of features, or that involve bipartite graphs in which the size of at least one class of nodes is unknown. We give a detailed derivation of this distribution, and illustrate its use as a prior in an infinite latent feature model. We then review recent applications of the Indian buffet process in machine learning, discuss its extensions, and summarize its connections to other stochastic processes.",
+    "authors": [
+        "Thomas L. Griffiths",
+        "Zoubin Ghahramani"
+    ],
+    "id": "griffiths11a",
+    "issue": 31,
+    "pages": [
+        1185,
+        1224
+    ],
+    "title": "The Indian Buffet Process: An Introduction and Review",
+    "volume": "12",
+    "year": "2011"
+}

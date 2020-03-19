@@ -1,0 +1,17 @@
+{
+    "abstract": "We analyze the convergence behaviour of a recently proposed algorithm for regularized estimation called Dual Augmented Lagrangian (DAL).  Our analysis is based on a new interpretation of DAL as a proximal minimization algorithm.  We theoretically show under some conditions that DAL converges super-linearly in a non-asymptotic and global sense. Due to a special modelling of sparse estimation problems in the context of machine learning, the assumptions we make are milder and more natural than those made in conventional analysis of augmented Lagrangian algorithms.  In addition, the new interpretation enables us to generalize DAL to wide varieties of sparse estimation problems.  We experimentally confirm our analysis in  a large scale <i><i>l</i><sub>1</sub></i>-regularized logistic regression problem and   extensively compare the efficiency of DAL algorithm to previously  proposed algorithms on both synthetic and benchmark data sets.",
+    "authors": [
+        "Ryota Tomioka",
+        "Taiji Suzuki",
+        "Masashi Sugiyama"
+    ],
+    "id": "tomioka11a",
+    "issue": 42,
+    "pages": [
+        1537,
+        1586
+    ],
+    "title": "Super-Linear Convergence of Dual Augmented Lagrangian Algorithm for Sparsity Regularized Estimation",
+    "volume": "12",
+    "year": "2011"
+}

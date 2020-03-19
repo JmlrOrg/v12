@@ -1,0 +1,15 @@
+{
+    "abstract": "In this paper the sequential prediction problem with expert advice is considered for the case where losses of experts suffered at each step cannot be bounded in advance. We present some modification of Kalai and Vempala algorithm of following the perturbed leader where weights depend on past losses of the experts. New notions of a volume and a scaled fluctuation of a game are introduced. We present a probabilistic algorithm protected from unrestrictedly large one-step losses. This algorithm has the optimal performance in the case when the scaled fluctuations of one-step losses of experts of the pool tend to zero.",
+    "authors": [
+        "Vladimir V. V'yugin"
+    ],
+    "id": "vyugin11a",
+    "issue": 7,
+    "pages": [
+        241,
+        266
+    ],
+    "title": "Online Learning in Case of Unbounded Losses Using Follow the Perturbed Leader Algorithm",
+    "volume": "12",
+    "year": "2011"
+}

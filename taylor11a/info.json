@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper we develop a class of nonlinear generative models for high-dimensional time series.  We first propose a model based on the restricted Boltzmann machine (RBM) that uses an undirected model with binary latent variables and real-valued \"visible\" variables. The latent and visible variables at each time step receive directed connections from the visible variables at the last few time-steps. This \"conditional\" RBM (CRBM) makes on-line inference efficient and allows us to use a simple approximate learning procedure. We demonstrate the power of our approach by synthesizing various sequences from a model trained on motion capture data and by performing on-line filling in of data lost during capture.\n<br>\nWe extend the CRBM in a way that preserves its most important computational properties and introduces multiplicative three-way interactions that allow the effective interaction weight between two variables to be modulated by the dynamic state of a third variable. We introduce a factoring of the implied three-way weight tensor to permit a more compact parameterization. The resulting model can capture diverse styles of motion with a single set of parameters, and the three-way interactions greatly improve its ability to blend motion styles or to transition smoothly among them.\n<br>\nVideos and source code can be found at http://www.cs.nyu.edu/~gwtaylor/publications/jmlr2011.",
+    "authors": [
+        "Graham W. Taylor",
+        "Geoffrey E. Hinton",
+        "Sam T. Roweis"
+    ],
+    "id": "taylor11a",
+    "issue": 27,
+    "pages": [
+        1025,
+        1068
+    ],
+    "title": "Two Distributed-State Models For Generating High-Dimensional Time Series",
+    "volume": "12",
+    "year": "2011"
+}

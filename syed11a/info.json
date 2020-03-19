@@ -1,0 +1,16 @@
+{
+    "abstract": "In medicine, one often bases decisions upon a comparative analysis of patient data. In this paper, we build upon this observation and describe similarity-based algorithms to risk stratify patients for major adverse cardiac events. We evolve the traditional approach of comparing patient data in two ways. First, we propose similarity-based algorithms that compare patients in terms of their long-term physiological monitoring data. Symbolic mismatch identifies functional units in long-term signals and measures changes in the morphology and frequency of these units across patients. Second, we describe similarity-based algorithms that are unsupervised and do not require comparisons to patients with known outcomes for risk stratification. This is achieved by using an anomaly detection framework to identify patients who are unlike other patients in a population and may potentially be at an elevated risk. We demonstrate the potential utility of our approach by showing how symbolic mismatch-based algorithms can be used to classify patients as being at high or low risk of major adverse cardiac events by comparing their long-term electrocardiograms to that of a large population. We describe how symbolic mismatch can be used in three different existing methods: one-class support vector machines, nearest neighbor analysis, and hierarchical clustering. When evaluated on a population of 686 patients with available long-term electrocardiographic data, symbolic mismatch-based comparative approaches were able to identify patients at roughly a two-fold increased risk of major adverse cardiac events in the 90 days following acute coronary syndrome. These results were consistent even after adjusting for other clinical risk variables.",
+    "authors": [
+        "Zeeshan Syed",
+        "John Guttag"
+    ],
+    "id": "syed11a",
+    "issue": 26,
+    "pages": [
+        999,
+        1024
+    ],
+    "title": "Unsupervised Similarity-Based Risk Stratification for Cardiovascular Events Using Long-Term Time-Series Data",
+    "volume": "12",
+    "year": "2011"
+}

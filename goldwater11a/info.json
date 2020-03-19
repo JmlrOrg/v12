@@ -1,0 +1,17 @@
+{
+    "abstract": "Standard statistical models of language fail to capture one of the most striking properties of natural languages: the power-law distribution in the frequencies of word tokens. We present a framework for developing statistical models that can generically produce power laws, breaking generative models into two stages. The first stage, the generator, can be any standard probabilistic model, while the second stage, the adaptor, transforms the word frequencies of this model to provide a closer match to natural language. We show that two commonly used Bayesian models, the Dirichlet-multinomial model and the Dirichlet process, can be viewed as special cases of our framework.  We discuss two stochastic processes---the Chinese restaurant process and its two-parameter generalization based on the Pitman-Yor process---that can be used as adaptors in our framework to produce power-law distributions over word frequencies.  We show that these adaptors justify common estimation procedures based on logarithmic or inverse-power transformations of empirical frequencies.  In addition, taking the Pitman-Yor Chinese restaurant process as an adaptor justifies the appearance of type frequencies in formal analyses of natural language and improves the performance of a model for unsupervised learning of morphology.",
+    "authors": [
+        "Sharon Goldwater",
+        "Thomas L. Griffiths",
+        "Mark Johnson"
+    ],
+    "id": "goldwater11a",
+    "issue": 67,
+    "pages": [
+        2335,
+        2382
+    ],
+    "title": "Producing Power-Law Distributions and Damping Word Frequencies with Two-Stage Language Models",
+    "volume": "12",
+    "year": "2011"
+}

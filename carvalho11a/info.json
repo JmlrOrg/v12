@@ -1,0 +1,18 @@
+{
+    "abstract": "We propose an efficient and parameter-free scoring criterion, the factorized conditional log-likelihood (f&#770;CLL), for learning Bayesian network classifiers. The proposed score is an approximation of the conditional log-likelihood criterion. The approximation is devised in order to guarantee decomposability over the network structure, as well as efficient estimation of the optimal parameters, achieving the same time and space complexity as the traditional log-likelihood scoring criterion.  The resulting criterion has an information-theoretic interpretation based on interaction information, which exhibits its discriminative nature. To evaluate the performance of the proposed criterion, we present an empirical comparison with state-of-the-art classifiers. Results on a large suite of benchmark data sets from the UCI repository show that f&#770;CLL-trained classifiers achieve at least as good accuracy as the best compared classifiers, using significantly less computational resources.",
+    "authors": [
+        "Alexandra M. Carvalho",
+        "Teemu Roos",
+        "Arlindo L. Oliveira",
+        "Petri Myllym&#228;ki"
+    ],
+    "id": "carvalho11a",
+    "issue": 62,
+    "pages": [
+        2181,
+        2210
+    ],
+    "title": "Discriminative Learning of Bayesian Networks via Factorized Conditional Log-Likelihood",
+    "volume": "12",
+    "year": "2011"
+}

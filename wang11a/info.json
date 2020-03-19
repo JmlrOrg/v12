@@ -1,0 +1,20 @@
+{
+    "abstract": "Much attention has been paid to the theoretical explanation of the empirical success of AdaBoost. The most influential work is the margin theory, which is essentially an upper bound for the generalization error of any voting classifier in terms of the margin distribution over the training data. However, important questions were raised about the margin explanation. Breiman (1999) proved a bound in terms of the minimum margin, which is sharper than the margin distribution bound. He argued that the minimum margin would be better in predicting the generalization error.  Grove and Schuurmans (1998) developed an algorithm called LP-AdaBoost which maximizes the minimum margin while keeping all other factors the same as AdaBoost. In experiments however, LP-AdaBoost usually performs worse than AdaBoost, putting the margin explanation into serious doubt. In this paper, we make a refined analysis of the margin theory. We prove a bound in terms of a new margin measure called the <i>Equilibrium margin (Emargin)</i>. The Emargin bound is uniformly sharper than Breiman's minimum margin bound. Thus our result suggests that the minimum margin may be not crucial for the generalization error. We also show that a large Emargin and a small empirical error at Emargin imply a smaller bound of the generalization error. Experimental results on benchmark data sets demonstrate that AdaBoost usually has a larger Emargin and a smaller test error than LP-AdaBoost, which agrees well with our theory.",
+    "authors": [
+        "Liwei Wang",
+        "Masashi Sugiyama",
+        "Zhaoxiang Jing",
+        "Cheng Yang",
+        "Zhi-Hua Zhou",
+        "Jufu Feng"
+    ],
+    "id": "wang11a",
+    "issue": 50,
+    "pages": [
+        1835,
+        1863
+    ],
+    "title": "A Refined Margin Analysis for Boosting Algorithms via Equilibrium Margin",
+    "volume": "12",
+    "year": "2011"
+}

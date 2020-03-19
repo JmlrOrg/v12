@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper describes a Bayesian approximation method to obtain online ranking algorithms for games with multiple teams and multiple players.  Recently for Internet games large online ranking systems are much needed.  We consider game models in which a <i>k</i>-team game is treated as several two-team games.  By approximating the expectation of teams' (or players') performances, we derive simple analytic update rules.  These update rules, without numerical integrations, are very easy to interpret and implement.  Experiments on game data show that the accuracy of our approach is competitive with state of the art systems such as TrueSkill, but the running time as well as the code is much shorter.",
+    "authors": [
+        "Ruby C. Weng",
+        "Chih-Jen Lin"
+    ],
+    "id": "weng11a",
+    "issue": 8,
+    "pages": [
+        267,
+        300
+    ],
+    "title": "A Bayesian Approximation Method for Online Ranking",
+    "volume": "12",
+    "year": "2011"
+}

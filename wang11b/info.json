@@ -1,0 +1,15 @@
+{
+    "abstract": "We study pool-based active learning in the presence of noise, that is, the agnostic setting. It is known that the effectiveness of agnostic active learning depends on the learning problem and the hypothesis space. Although there are many cases on which active learning is very useful, it is also easy to construct examples that no active learning algorithm can have an advantage. Previous works have shown that the label complexity of active learning relies on the <i>disagreement coefficient</i> which often characterizes the intrinsic difficulty of the learning problem. In this paper, we study the disagreement coefficient of classification problems for which the classification boundary is smooth and the data distribution has a density that can be bounded by a smooth function.  We prove upper and lower bounds for the disagreement coefficients of both finitely and infinitely smooth problems. Combining with existing results, it shows that active learning is superior to passive supervised learning for smooth problems.",
+    "authors": [
+        "Liwei Wang"
+    ],
+    "id": "wang11b",
+    "issue": 64,
+    "pages": [
+        2269,
+        2292
+    ],
+    "title": "Smoothness, Disagreement Coefficient, and the Label Complexity of Agnostic Active Learning",
+    "volume": "12",
+    "year": "2011"
+}

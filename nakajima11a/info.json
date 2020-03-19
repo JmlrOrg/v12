@@ -1,0 +1,16 @@
+{
+    "abstract": "Recently, <i>variational Bayesian</i> (VB) techniques have been applied to probabilistic matrix factorization and shown to perform very well in experiments.  In this paper, we theoretically elucidate properties of the VB matrix factorization (VBMF) method.  Through finite-sample analysis of the VBMF estimator, we show that two types of shrinkage factors exist in the VBMF estimator: the <i>positive-part James-Stein (PJS)</i> shrinkage and the <i>trace-norm</i> shrinkage, both acting on each singular component separately for producing low-rank solutions.  The trace-norm shrinkage is simply induced by non-flat prior information, similarly to the maximum a posteriori (MAP) approach.  Thus, no trace-norm shrinkage remains when priors are non-informative.  On the other hand, we show a counter-intuitive fact that the PJS shrinkage factor is kept activated even with flat priors.  This is shown to be induced by the <i>non-identifiability</i> of the matrix factorization model, that is, the mapping between the target matrix and factorized matrices is not one-to-one.  We call this <i>model-induced regularization</i>.  We further extend our analysis to empirical Bayes scenarios where hyperparameters are also learned based on the VB free energy.  Throughout the paper, we assume no missing entry in the observed matrix, and therefore collaborative filtering is out of scope.",
+    "authors": [
+        "Shinichi Nakajima",
+        "Masashi Sugiyama"
+    ],
+    "id": "nakajima11a",
+    "issue": 78,
+    "pages": [
+        2583,
+        2648
+    ],
+    "title": "Theoretical Analysis of Bayesian Matrix Factorization",
+    "volume": "12",
+    "year": "2011"
+}

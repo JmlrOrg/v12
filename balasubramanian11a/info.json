@@ -1,0 +1,17 @@
+{
+    "abstract": "Many popular linear classifiers, such as logistic regression, boosting, or SVM, are trained by optimizing a margin-based risk function. Traditionally, these risk functions are computed based on a labeled data set. We develop a novel technique for estimating such risks using only unlabeled data and the marginal label distribution. We prove that the proposed risk estimator is consistent on high-dimensional data sets and demonstrate it on synthetic and real-world data. In particular, we   show how the estimate is used for evaluating classifiers in transfer   learning, and for training classifiers with no labeled data   whatsoever.",
+    "authors": [
+        "Krishnakumar Balasubramanian",
+        "Pinar Donmez",
+        "Guy Lebanon"
+    ],
+    "id": "balasubramanian11a",
+    "issue": 95,
+    "pages": [
+        3119,
+        3145
+    ],
+    "title": "Unsupervised Supervised Learning II: Margin-Based Classification Without Labels",
+    "volume": "12",
+    "year": "2011"
+}

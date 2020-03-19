@@ -1,0 +1,17 @@
+{
+    "abstract": "In most kernel based online learning algorithms, when an incoming instance is misclassified, it will be added into the pool of support vectors and assigned with a weight, which often remains unchanged during the rest of the learning process. This is clearly insufficient since when a new support vector is added, we generally expect the weights of the other existing support vectors to be updated in order to reflect the influence of the added support vector. In this paper, we propose a new online learning method, termed <b>Double Updating Online Learning</b>, or <b>DUOL</b> for short, that explicitly addresses this problem. Instead of only assigning a fixed weight to the misclassified example received at the current trial, the proposed online learning algorithm also tries to update the weight for one of the existing support vectors. We show that the mistake bound can be improved by the proposed online learning method. We conduct an extensive set of empirical evaluations for both binary and multi-class online learning tasks. The experimental results show that the proposed technique is considerably more effective than the state-of-the-art online learning algorithms. The source code is available to public at http://www.cais.ntu.edu.sg/~chhoi/DUOL/.",
+    "authors": [
+        "Peilin Zhao",
+        "Steven C.H. Hoi",
+        "Rong Jin"
+    ],
+    "id": "zhao11a",
+    "issue": 43,
+    "pages": [
+        1587,
+        1615
+    ],
+    "title": "Double Updating Online Learning",
+    "volume": "12",
+    "year": "2011"
+}

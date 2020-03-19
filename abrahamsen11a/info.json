@@ -1,0 +1,16 @@
+{
+    "abstract": "Small sample high-dimensional principal component analysis (PCA) suffers from variance inflation and lack of generalizability. It has earlier been pointed out that a simple leave-one-out variance renormalization scheme can cure the problem. In this paper we generalize the cure in two directions: First, we propose a computationally less intensive approximate leave-one-out estimator, secondly, we show that variance inflation is also present in kernel principal component analysis (kPCA) and we provide a non-parametric renormalization scheme which can quite efficiently restore generalizability in kPCA. As for PCA our analysis also suggests a simplified approximate expression.",
+    "authors": [
+        "Trine Julie Abrahamsen",
+        "Lars Kai Hansen"
+    ],
+    "id": "abrahamsen11a",
+    "issue": 57,
+    "pages": [
+        2027,
+        2044
+    ],
+    "title": "A Cure for Variance Inflation in High Dimensional Kernel Principal Component Analysis",
+    "volume": "12",
+    "year": "2011"
+}

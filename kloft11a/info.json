@@ -1,0 +1,18 @@
+{
+    "abstract": "Learning linear combinations of multiple kernels is an appealing strategy when the right choice of features is unknown. Previous approaches to multiple kernel learning (MKL) promote sparse kernel combinations to support interpretability and scalability.  Unfortunately, this <i><i>l</i><sub>1</sub></i>-norm MKL is rarely observed to outperform trivial baselines in practical applications. To allow for robust kernel mixtures that generalize well, we extend MKL to arbitrary norms. We devise new insights on the connection between several existing MKL formulations and develop two efficient <i>interleaved</i> optimization strategies for arbitrary norms, that is <i><i>l</i><sub>p</sub></i>-norms with <i>p &#8805; 1</i>. This interleaved optimization is much faster than the commonly used wrapper approaches, as demonstrated on several data sets.  A theoretical analysis and an experiment on controlled artificial data shed light on the appropriateness of sparse, non-sparse and <i><i>l</i><sub>&#8734;</sub></i>-norm MKL in various scenarios.  Importantly, empirical applications of <i><i>l</i><sub>p</sub></i>-norm MKL to three real-world problems from computational biology show that non-sparse MKL achieves accuracies that surpass the state-of-the-art.\n<br>\nData sets, source code to reproduce the experiments, implementations of the algorithms, and further information are available at http://doc.ml.tu-berlin.de/nonsparse_mkl/.",
+    "authors": [
+        "Marius Kloft",
+        "Ulf Brefeld",
+        "S&#246;ren Sonnenburg",
+        "Alexander Zien"
+    ],
+    "id": "kloft11a",
+    "issue": 25,
+    "pages": [
+        953,
+        997
+    ],
+    "title": "<i>l<sub>p</sub></i>-Norm Multiple Kernel Learning",
+    "volume": "12",
+    "year": "2011"
+}

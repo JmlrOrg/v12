@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper addresses the problem of learning Bayesian network structures from data based on score functions that are decomposable.  It describes properties that strongly reduce the time and memory costs of many known methods without losing global optimality guarantees.  These properties are derived for different score criteria such as Minimum Description Length (or Bayesian Information Criterion), Akaike Information Criterion and Bayesian Dirichlet Criterion.  Then a branch-and-bound algorithm is presented that integrates structural constraints with data in a way to guarantee global optimality.  As an example, structural constraints are used to map the problem of structure learning in Dynamic Bayesian networks into a corresponding augmented Bayesian network.  Finally, we show empirically the benefits of using the properties with state-of-the-art methods and with the new algorithm, which is able to handle larger data sets than before.",
+    "authors": [
+        "Cassio P. de Campos",
+        "Qiang Ji"
+    ],
+    "id": "decampos11a",
+    "issue": 19,
+    "pages": [
+        663,
+        689
+    ],
+    "title": "Efficient Structure Learning of Bayesian Networks using Constraints",
+    "volume": "12",
+    "year": "2011"
+}

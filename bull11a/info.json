@@ -1,0 +1,15 @@
+{
+    "abstract": "In the efficient global optimization problem, we minimize an unknown function <i>f</i>, using as few observations <i>f(x)</i> as possible. It can be considered a continuum-armed-bandit problem, with noiseless data, and simple regret.  Expected-improvement algorithms are perhaps the most popular methods for solving the problem; in this paper, we provide theoretical results on their asymptotic behaviour.  <br> Implementing these algorithms requires a choice of Gaussian-process prior, which determines an associated space of functions, its reproducing-kernel Hilbert space (RKHS).  When the prior is fixed, expected improvement is known to converge on the minimum of any function in its RKHS.  We provide convergence rates for this procedure, optimal for functions of low smoothness, and describe a modified algorithm attaining optimal rates for smoother functions.  <br> In practice, however, priors are typically estimated sequentially from the data.  For standard estimators, we show this procedure may never find the minimum of <i>f</i>.  We then propose alternative estimators, chosen to minimize the constants in the rate of convergence, and show these estimators retain the convergence rates of a fixed prior.",
+    "authors": [
+        "Adam D. Bull"
+    ],
+    "id": "bull11a",
+    "issue": 87,
+    "pages": [
+        2879,
+        2904
+    ],
+    "title": "Convergence Rates of Efficient Global Optimization Algorithms",
+    "volume": "12",
+    "year": "2011"
+}

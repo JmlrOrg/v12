@@ -1,0 +1,17 @@
+{
+    "abstract": "We propose a fully Bayesian methodology for generalized kernel mixed models (GKMMs), which are extensions of generalized linear mixed models in the feature space induced by a reproducing kernel. We place a mixture of a point-mass distribution and Silverman's <i>g</i>-prior on the regression vector of a generalized kernel model (GKM). This mixture prior allows a fraction of the components of the regression vector to be zero. Thus, it serves for sparse modeling and is useful for Bayesian computation. In particular, we exploit data augmentation methodology to develop a Markov chain Monte Carlo (MCMC) algorithm in which the reversible jump method is used for model selection and a Bayesian model averaging method is used for posterior prediction.  When the feature basis expansion in the reproducing kernel Hilbert space is treated as a stochastic process, this approach can be related to the Karhunen-Lo&#232;ve expansion of a Gaussian process  (GP).  Thus, our sparse modeling framework leads to a flexible approximation method for GPs.",
+    "authors": [
+        "Zhihua Zhang",
+        "Guang Dai",
+        "Michael I. Jordan"
+    ],
+    "id": "zhang11a",
+    "issue": 4,
+    "pages": [
+        111,
+        139
+    ],
+    "title": "Bayesian Generalized Kernel Mixed Models",
+    "volume": "12",
+    "year": "2011"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper presents hHDP, a hierarchical algorithm for representing a document collection as a hierarchy of latent topics, based on Dirichlet process priors. The hierarchical nature of the algorithm refers to the Bayesian hierarchy that it comprises, as well as to the hierarchy of the latent topics. hHDP relies on nonparametric Bayesian priors and it is able to infer a hierarchy of topics, without making any assumption about the depth of the learned hierarchy and the branching factor at each level. We evaluate the proposed method on real-world data sets in document modeling, as well as in ontology learning, and provide qualitative and quantitative evaluation results, showing that the model is robust, it models accurately the training data set and is able to generalize on held-out data.",
+    "authors": [
+        "Elias Zavitsanos",
+        "Georgios Paliouras",
+        "George A. Vouros"
+    ],
+    "id": "zavitsanos11a",
+    "issue": 82,
+    "pages": [
+        2749,
+        2775
+    ],
+    "title": "Non-Parametric Estimation of Topic Hierarchies from Texts with Hierarchical Dirichlet Processes",
+    "volume": "12",
+    "year": "2011"
+}

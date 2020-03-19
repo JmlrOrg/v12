@@ -1,0 +1,18 @@
+{
+    "abstract": "Statistical models of natural images provide an important tool for researchers in the fields of machine learning and computational neuroscience. The canonical measure to quantitatively assess and compare the performance of statistical models is given by the likelihood. One class of statistical models which has recently gained increasing popularity and has been applied to a variety of complex data is formed by deep belief networks. Analyses of these models, however, have often been limited to qualitative analyses based on samples due to the computationally intractable nature of their likelihood. Motivated by these circumstances, the present article introduces a consistent estimator for the likelihood of deep belief networks which is computationally tractable and simple to apply in practice. Using this estimator, we quantitatively investigate a deep belief network for natural image patches and compare its performance to the performance of other models for natural image patches. We find that the deep belief network is outperformed with respect to the likelihood even by very simple mixture models.",
+    "authors": [
+        "Lucas Theis",
+        "Sebastian Gerwinn",
+        "Fabian Sinz",
+        "Matthias Bethge"
+    ],
+    "id": "theis11a",
+    "issue": 93,
+    "pages": [
+        3071,
+        3096
+    ],
+    "title": "In All Likelihood, Deep Belief Is Not Enough",
+    "volume": "12",
+    "year": "2011"
+}

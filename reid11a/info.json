@@ -1,0 +1,16 @@
+{
+    "abstract": "We unify <i>f</i>-divergences, Bregman divergences, surrogate regret bounds, proper scoring rules, cost curves, ROC-curves and statistical information.  We do this by systematically studying integral and variational representations of these objects and in so doing identify their representation primitives  which all are related to cost-sensitive binary classification.  As well as developing relationships between generative and discriminative views of learning, the new machinery leads to tight and more general surrogate regret bounds and generalised Pinsker inequalities relating <i>f</i>-divergences to variational divergence.  The new viewpoint also illuminates existing algorithms: it provides a new derivation of Support Vector Machines in terms of divergences and relates maximum mean discrepancy to Fisher linear discriminants.",
+    "authors": [
+        "Mark D. Reid",
+        "Robert C. Williamson"
+    ],
+    "id": "reid11a",
+    "issue": 21,
+    "pages": [
+        731,
+        817
+    ],
+    "title": "Information, Divergence and Risk for Binary Experiments",
+    "volume": "12",
+    "year": "2011"
+}

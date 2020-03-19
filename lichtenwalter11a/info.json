@@ -1,0 +1,16 @@
+{
+    "abstract": "LPmade is a complete cross-platform software solution for multi-core link prediction and related tasks and analysis. Its first principal contribution is a scalable network library supporting high-performance implementations of the most commonly employed unsupervised link prediction methods. Link prediction in longitudinal data requires a sophisticated and disciplined procedure for correct results and fair evaluation, so the second principle contribution of LPmade is a sophisticated GNU make architecture that completely automates link prediction, prediction evaluation, and network analysis. Finally, LPmade streamlines and automates the procedure for creating multivariate supervised link prediction models with a version of WEKA modified to operate effectively on extremely large data sets. With mere minutes of manual work, one may start with a raw stream of records representing a network and progress through hundreds of steps to generate plots, gigabytes or terabytes of output, and actionable or publishable results.",
+    "authors": [
+        "Ryan N. Lichtenwalter",
+        "Nitesh V. Chawla"
+    ],
+    "id": "lichtenwalter11a",
+    "issue": 74,
+    "pages": [
+        2489,
+        2492
+    ],
+    "title": "LPmade: Link Prediction Made Easy",
+    "volume": "12",
+    "year": "2011"
+}

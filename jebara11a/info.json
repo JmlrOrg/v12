@@ -1,0 +1,15 @@
+{
+    "abstract": "A multitask learning framework is developed for discriminative classification and regression where multiple large-margin linear classifiers are estimated for different prediction problems. These classifiers operate in a common input space but are coupled as they recover an unknown shared representation. A maximum entropy discrimination (MED) framework is used to derive the multitask algorithm which involves only convex optimization problems that are straightforward to implement.  Three multitask scenarios are described. The first multitask method produces multiple support vector machines that learn a shared sparse feature selection over the input space. The second multitask method produces multiple support vector machines that learn a shared conic kernel combination. The third multitask method produces a pooled classifier as well as adaptively specialized individual classifiers. Furthermore, extensions to regression, graphical model structure estimation and other sparse methods are discussed. The maximum entropy optimization problems are implemented via a sequential quadratic programming method which leverages recent progress in fast SVM solvers. Fast monotonic convergence bounds are provided by bounding the MED sparsifying cost function with a quadratic function and ensuring only a constant factor runtime increase above standard independent SVM solvers. Results are shown on multitask data sets and favor multitask learning over single-task or tabula rasa methods.",
+    "authors": [
+        "Tony Jebara"
+    ],
+    "id": "jebara11a",
+    "issue": 3,
+    "pages": [
+        75,
+        110
+    ],
+    "title": "Multitask Sparsity via Maximum Entropy Discrimination",
+    "volume": "12",
+    "year": "2011"
+}

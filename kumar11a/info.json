@@ -1,0 +1,17 @@
+{
+    "abstract": "We consider the problem of obtaining an approximate maximum <i>a posteriori</i> estimate of a discrete random field characterized by pairwise potentials that form a truncated convex model. For this problem, we propose two <i>st</i>-MINCUT based move making algorithms that we call Range Swap and Range Expansion. Our algorithms can be thought of as extensions of <i>&#945;&#946;</i>-Swap and <i>&#945;</i>-Expansion respectively that fully exploit the form of the pairwise potentials. Specifically, instead of dealing with one or two labels at each iteration, our methods explore a large search space by considering a range of labels (that is, an interval of consecutive labels).  Furthermore, we show that Range Expansion provides the same multiplicative bounds as the standard linear programming (LP) relaxation in polynomial time.  Compared to previous approaches based on the LP relaxation, for example interior-point algorithms or tree-reweighted message passing (TRW), our methods are faster as they use only the efficient <i>st</i>-MINCUT algorithm in their design.  We demonstrate the usefulness of the proposed approaches on both synthetic and standard real data problems.",
+    "authors": [
+        "M. Pawan Kumar",
+        "Olga Veksler",
+        "Philip H.S. Torr"
+    ],
+    "id": "kumar11a",
+    "issue": 1,
+    "pages": [
+        31,
+        67
+    ],
+    "title": "Improved Moves for Truncated Convex Models",
+    "volume": "12",
+    "year": "2011"
+}

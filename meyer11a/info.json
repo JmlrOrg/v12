@@ -1,0 +1,17 @@
+{
+    "abstract": "The paper addresses the problem of learning a regression model parameterized by a fixed-rank positive semidefinite matrix. The focus is on the nonlinear nature of the search space and on scalability to high-dimensional problems. The mathematical developments rely on the theory of gradient descent algorithms adapted to the Riemannian geometry that underlies the set of fixed-rank positive semidefinite matrices. In contrast with previous contributions in the literature, no restrictions are imposed on the range space of the learned matrix. The resulting algorithms maintain a linear complexity in the problem size and enjoy important invariance properties. We apply the proposed algorithms to the problem of learning a distance function parameterized by a positive semidefinite matrix. Good performance is observed on classical benchmarks.",
+    "authors": [
+        "Gilles Meyer",
+        "Silv&#232;re Bonnabel",
+        "Rodolphe Sepulchre"
+    ],
+    "id": "meyer11a",
+    "issue": 17,
+    "pages": [
+        593,
+        625
+    ],
+    "title": "Regression on Fixed-Rank Positive Semidefinite Matrices: A Riemannian Approach",
+    "volume": "12",
+    "year": "2011"
+}

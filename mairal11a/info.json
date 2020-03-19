@@ -1,0 +1,18 @@
+{
+    "abstract": "We consider a class of learning problems regularized by a structured sparsity-inducing norm defined as the sum of <i>l</i><sub>2</sub>- or <i>l</i><sub>&#8734;</sub>-norms over groups of variables. Whereas much effort has been put in developing fast optimization techniques when the groups are disjoint or embedded in a hierarchy, we address here the case of general overlapping groups.  To this end, we present two different strategies: On the one hand, we show that the proximal operator associated with a sum of <i>l</i><sub>&#8734;</sub>-norms can be computed exactly in polynomial time by solving a <i>quadratic min-cost flow problem</i>, allowing the use of accelerated proximal gradient methods.  On the other hand, we use proximal splitting techniques, and address an equivalent formulation with non-overlapping groups, but in higher dimension and with additional constraints.  We propose efficient and scalable algorithms exploiting these two strategies, which are significantly faster than alternative approaches.  We illustrate these methods with several problems such as CUR matrix factorization, multi-task learning of tree-structured dictionaries, background subtraction in video sequences, image denoising with wavelets, and topographic dictionary learning of natural image patches.",
+    "authors": [
+        "Julien Mairal",
+        "Rodolphe Jenatton",
+        "Guillaume Obozinski",
+        "Francis Bach"
+    ],
+    "id": "mairal11a",
+    "issue": 80,
+    "pages": [
+        2681,
+        2720
+    ],
+    "title": "Convex and Network Flow Optimization for Structured Sparsity",
+    "volume": "12",
+    "year": "2011"
+}

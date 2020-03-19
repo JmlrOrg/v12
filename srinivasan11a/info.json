@@ -1,0 +1,16 @@
+{
+    "abstract": "Reports of experiments conducted with an Inductive Logic Programming system rarely describe how specific values of parameters of the system are arrived at when constructing models. Usually, no attempt is made to identify sensitive parameters, and those that are used are often given \"factory-supplied\" default values, or values obtained from some non-systematic exploratory analysis. The immediate consequence of this is, of course, that it is not clear if better models could have been obtained if some form of parameter selection and optimisation had been performed.  Questions follow inevitably on the experiments themselves: specifically, are all algorithms being treated fairly, and is the exploratory phase sufficiently well-defined to allow the experiments to be replicated? In this paper, we investigate the use of parameter selection and optimisation techniques grouped under the study of experimental design.  Screening and response surface methods determine, in turn, sensitive parameters and good values for these parameters. Screening is done here by constructing a stepwise regression model relating the utility of an ILP system's hypothesis to its input parameters, using systematic combinations of values of input parameters (technically speaking, we use a two-level fractional factorial design of the input parameters).  The parameters used by the regression model are taken to be the sensitive parameters for the system for that application. We then seek an assignment of values to these sensitive parameters that maximise the utility of the ILP model. This is done using the technique of constructing a local \"response surface\". The parameters are then changed following the path of steepest ascent until a locally optimal value is reached.  This combined use of parameter selection and response surface-driven optimisation has a long history of application in industrial engineering, and its role in ILP is demonstrated using well-known benchmarks. The results suggest that computational overheads from this preliminary phase are not substantial, and that much can be gained, both on improving system performance and on enabling controlled experimentation, by adopting well-established procedures such as the ones proposed here.",
+    "authors": [
+        "Ashwin Srinivasan",
+        "Ganesh Ramakrishnan"
+    ],
+    "id": "srinivasan11a",
+    "issue": 18,
+    "pages": [
+        627,
+        662
+    ],
+    "title": "Parameter Screening and Optimisation for ILP using Designed Experiments",
+    "volume": "12",
+    "year": "2011"
+}

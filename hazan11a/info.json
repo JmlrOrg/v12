@@ -1,0 +1,16 @@
+{
+    "abstract": "The online multi-armed bandit problem and its generalizations are repeated decision making problems, where the goal is to select one of several possible decisions in every round, and incur a cost associated with the decision, in such a way that the total cost incurred over all iterations is close to the cost of the best fixed decision in hindsight. The difference in these costs is known as the <i>regret</i> of the algorithm. The term <i>bandit</i> refers to the setting where one only obtains the cost of the decision used in a given iteration and no other information.\n<br>\nA very general form of this problem is the non-stochastic bandit linear optimization problem, where the set of decisions is a convex set in some Euclidean space, and the cost functions are linear. Only recently an efficient algorithm attaining <i>&#213;(&#8730;T)</i> regret was discovered in this setting.\n<br>\nIn this paper we propose a new algorithm for the bandit linear optimization problem which obtains a tighter regret bound of <i>&#213;(&#8730;Q)</i>, where <i>Q</i> is the total variation in the cost functions. This regret bound, previously conjectured to hold in the full information case, shows that it is possible to incur much less regret in a slowly changing environment even in the bandit setting. Our algorithm is efficient and applies several new ideas to bandit optimization such as reservoir sampling.",
+    "authors": [
+        "Elad Hazan",
+        "Satyen Kale"
+    ],
+    "id": "hazan11a",
+    "issue": 34,
+    "pages": [
+        1287,
+        1311
+    ],
+    "title": "Better Algorithms for Benign Bandits",
+    "volume": "12",
+    "year": "2011"
+}

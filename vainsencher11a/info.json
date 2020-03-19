@@ -1,0 +1,17 @@
+{
+    "abstract": "A large set of signals can sometimes be described sparsely using a dictionary, that is, every element can be represented as a linear combination of few elements from the dictionary.  Algorithms for various signal processing applications, including classification, denoising and signal separation, learn a dictionary from a given set of signals to be represented. Can we expect that the error in representing by such a dictionary a previously unseen signal from the same source will be of similar magnitude as those for the given examples?  We assume signals are generated from a fixed distribution, and study these questions from a statistical learning theory perspective.  <br> We develop generalization bounds on the quality of the learned dictionary for two types of constraints on the coefficient selection, as measured by the expected <i>L<sub>2</sub></i> error in representation when the dictionary is used.  For the case of <i>l<sub>1</sub></i> regularized coefficient selection we provide a generalization bound of the order of <i>O(&#8730;np ln(m&#955;)/m)</i>, where <i>n</i> is the dimension, <i>p</i> is the number of elements in the dictionary, <i>&#955;</i> is a bound on the <i>l<sub>1</sub></i> norm of the coefficient vector and <i>m</i> is the number of samples, which complements existing results.  For the case of representing a new signal as a combination of at most <i>k</i> dictionary elements, we provide a bound of the order <i>O(&#8730;np ln(mk)/m)</i> under an assumption on the closeness to orthogonality of the dictionary (low Babel function).  We further show that this assumption holds for <i>most</i> dictionaries in high dimensions in a strong probabilistic sense.  Our results also include bounds that converge as <i>1/m</i>, not previously known for this problem.  We provide similar results in a general setting using kernels with weak smoothness requirements.",
+    "authors": [
+        "Daniel Vainsencher",
+        "Shie Mannor",
+        "Alfred M. Bruckstein"
+    ],
+    "id": "vainsencher11a",
+    "issue": 99,
+    "pages": [
+        3259,
+        3281
+    ],
+    "title": "The Sample Complexity of Dictionary Learning",
+    "volume": "12",
+    "year": "2011"
+}

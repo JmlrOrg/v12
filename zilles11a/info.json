@@ -1,0 +1,18 @@
+{
+    "abstract": "While most supervised machine learning models assume that training examples are sampled at random or adversarially, this article is concerned with models of learning from a cooperative teacher that selects \"helpful\" training examples. The number of training examples a learner needs for identifying a concept in a given class <i>C</i> of possible target concepts (sample complexity of <i>C</i>) is lower in models assuming such teachers, that is, \"helpful\" examples can speed up the learning process.\n<br>\nThe problem of how a teacher and a learner can cooperate in order to reduce the sample complexity, yet without using \"coding tricks\", has been widely addressed. Nevertheless, the resulting teaching and learning protocols do not seem to make the teacher select intuitively \"helpful\" examples. The two models introduced in this paper are built on what we call <i>subset teaching sets</i> and <i>recursive teaching sets</i>. They extend previous models of teaching by letting both the teacher and the learner exploit <i>knowing</i> that the partner is cooperative. For this purpose, we introduce a new notion of \"coding trick\"/\"collusion\". \n<br>\nWe show how both resulting sample complexity measures (the <i>subset teaching dimension</i> and the <i>recursive teaching dimension</i>) can be arbitrarily lower than the classic teaching dimension and known variants thereof, without using coding tricks. For instance, monomials can be taught with only two examples independent of the number of variables.\n<br>\nThe subset teaching dimension turns out to be nonmonotonic with respect to subclasses of concept classes. We discuss why this nonmonotonicity might be inherent in many interesting cooperative teaching and learning scenarios.",
+    "authors": [
+        "Sandra Zilles",
+        "Steffen Lange",
+        "Robert Holte",
+        "Martin Zinkevich"
+    ],
+    "id": "zilles11a",
+    "issue": 10,
+    "pages": [
+        349,
+        384
+    ],
+    "title": "Models of Cooperative Teaching and Learning",
+    "volume": "12",
+    "year": "2011"
+}

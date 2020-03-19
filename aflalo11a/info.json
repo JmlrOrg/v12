@@ -1,0 +1,19 @@
+{
+    "abstract": "This paper presents novel algorithms and applications for a particular class of mixed-norm regularization based Multiple Kernel Learning (MKL) formulations. The formulations assume that the given kernels are grouped and employ <i>l<sub>1</sub></i> norm regularization for promoting sparsity within RKHS norms of each group and <i>l<sub>s</sub>, s&#8805;2</i> norm regularization for promoting non-sparse combinations across groups. Various sparsity levels in combining the kernels can be achieved by varying the grouping of kernels---hence we name the formulations as Variable Sparsity Kernel Learning (VSKL) formulations. While previous attempts have a non-convex formulation, here we present a convex formulation which admits efficient Mirror-Descent (MD) based solving techniques. The proposed MD based algorithm optimizes over product of simplices and has a computational complexity of <i>O(m<sup>2</sup>n<sub>tot</sub> log n<sub>max</sub>/&#949;<sup>2</sup>)</i> where <i>m</i> is no. training data points, <i>n<sub>max</sub>,n<sub>tot</sub></i> are the maximum no. kernels in any group, total no. kernels respectively and <i>&#949;</i> is the error in approximating the objective. A detailed proof of convergence of the algorithm is also presented. Experimental results show that the VSKL formulations are well-suited for multi-modal learning tasks like object categorization. Results also show that the MD based algorithm outperforms state-of-the-art MKL solvers in terms of computational efficiency.",
+    "authors": [
+        "Jonathan Aflalo",
+        "Aharon Ben-Tal",
+        "Chiranjib Bhattacharyya",
+        "Jagarlapudi Saketha Nath",
+        "Sankaran Raman"
+    ],
+    "id": "aflalo11a",
+    "issue": 16,
+    "pages": [
+        565,
+        592
+    ],
+    "title": "Variable Sparsity Kernel Learning",
+    "volume": "12",
+    "year": "2011"
+}

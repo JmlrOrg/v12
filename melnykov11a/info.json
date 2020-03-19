@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper presents the CLUSTERING ALGORITHMS' REFEREE PACKAGE or CARP,  an open source GNU GPL-licensed C package for evaluating clustering algorithms. Calibrating performance of such algorithms is important and CARP addresses this need by generating datasets of different clustering complexity and by assessing the performance of the concerned algorithm in terms of its ability to classify each dataset relative to the true grouping. This paper briefly describes the software and its capabilities.",
+    "authors": [
+        "Volodymyr Melnykov",
+        "Ranjan Maitra"
+    ],
+    "id": "melnykov11a",
+    "issue": 2,
+    "pages": [
+        69,
+        73
+    ],
+    "title": "CARP: Software for Fishing Out Good Clustering Algorithms",
+    "volume": "12",
+    "year": "2011"
+}

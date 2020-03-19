@@ -1,0 +1,16 @@
+{
+    "abstract": "Blind source separation problems emerge in many applications, where signals can be modeled as superpositions of multiple sources. Many popular applications of blind source separation are based on linear instantaneous mixture models. If specific invariance properties are known about the sources, for example, translation or rotation invariance, the simple linear model can be extended by inclusion of the corresponding transformations.  When the sources are invariant against translations (spatial displacements or time shifts) the resulting model is called an anechoic mixing model. We present a new algorithmic framework for the solution of anechoic problems in arbitrary dimensions. This framework is derived from stochastic time-frequency analysis in general, and the marginal properties of the Wigner-Ville spectrum in particular. The method reduces the general anechoic problem to a set of anechoic problems with non-negativity constraints and a phase retrieval problem. The first type of subproblem can be solved by existing algorithms, for example by an appropriate modification of non-negative matrix factorization (NMF). The second subproblem is solved by established phase retrieval methods. We discuss and compare implementations of this new algorithmic framework for several example problems with synthetic and real-world data, including music streams, natural 2D images, human motion trajectories and two-dimensional shapes.",
+    "authors": [
+        "Lars Omlor",
+        "Martin A. Giese"
+    ],
+    "id": "omlor11a",
+    "issue": 29,
+    "pages": [
+        1111,
+        1148
+    ],
+    "title": "Anechoic Blind Source Separation Using Wigner Marginals",
+    "volume": "12",
+    "year": "2011"
+}

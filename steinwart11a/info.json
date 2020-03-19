@@ -1,0 +1,17 @@
+{
+    "abstract": "We develop, analyze, and test a  training algorithm for support vector machine classifiers without offset.  Key features of this algorithm are a new, statistically motivated  stopping criterion, new warm start options, and a set of inexpensive working set selection strategies that significantly reduce the number of iterations.  For these working set strategies, we establish convergence rates that, not surprisingly,  coincide with the best known rates for SVMs with offset.  We further conduct various experiments that investigate both the run time behavior and the performed iterations of the new training algorithm. It turns out, that the new algorithm needs significantly less iterations and also runs substantially faster  than standard training algorithms for SVMs with offset.",
+    "authors": [
+        "Ingo Steinwart",
+        "Don Hush",
+        "Clint Scovel"
+    ],
+    "id": "steinwart11a",
+    "issue": 5,
+    "pages": [
+        141,
+        202
+    ],
+    "title": "Training SVMs Without Offset",
+    "volume": "12",
+    "year": "2011"
+}

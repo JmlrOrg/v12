@@ -1,0 +1,17 @@
+{
+    "abstract": "Gaussian process regression is a flexible and powerful tool for machine learning, but the high computational complexity hinders its broader applications. In this paper, we propose a new approach for fast computation of Gaussian process regression with a focus on large spatial data sets. The approach decomposes the domain of a regression function into small subdomains and infers a local piece of the regression function for each subdomain. We explicitly address the mismatch problem of the local pieces on the boundaries of neighboring subdomains by imposing continuity constraints. The new approach has comparable or better computation complexity as other competing methods, but it is easier to be parallelized for faster computation. Moreover, the method can be adaptive to non-stationary features because of its local nature and, in particular, its use of different hyperparameters of the covariance function for different local regions. We illustrate application of the method and demonstrate its advantages over existing methods using two synthetic data sets and two real spatial data sets.",
+    "authors": [
+        "Chiwoo Park",
+        "Jianhua Z. Huang",
+        "Yu Ding"
+    ],
+    "id": "park11a",
+    "issue": 46,
+    "pages": [
+        1697,
+        1728
+    ],
+    "title": "Domain Decomposition Approach for Fast Gaussian Process Regression of Large Spatial Data Sets",
+    "volume": "12",
+    "year": "2011"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We describe a new objective for graph-based semi-supervised learning based on minimizing the Kullback-Leibler divergence between discrete probability measures that encode class membership probabilities. We show how the proposed objective can be efficiently optimized using alternating minimization. We prove that the alternating minimization procedure converges to the correct optimum and derive a simple test for convergence. In addition, we show how this approach can be scaled to solve the semi-supervised learning problem on very large data sets, for example, in one instance we use a data set with over <i>10<sup>8</sup></i> samples.  In this context, we propose a graph node ordering algorithm that is also applicable to other graph-based semi-supervised learning approaches. We compare the proposed approach against other standard semi-supervised learning algorithms on the semi-supervised learning benchmark data sets (Chapelle et al., 2007), and other real-world tasks such as text classification on Reuters and WebKB, speech phone classification on TIMIT and Switchboard, and linguistic dialog-act tagging on Dihana and Switchboard. In each case, the proposed approach outperforms the state-of-the-art.  Lastly, we show that our objective can be generalized into a form that includes the standard squared-error loss, and we prove a geometric rate of convergence in that case.",
+    "authors": [
+        "Amarnag Subramanya",
+        "Jeff Bilmes"
+    ],
+    "id": "subramanya11a",
+    "issue": 101,
+    "pages": [
+        3311,
+        3370
+    ],
+    "title": "Semi-Supervised Learning with Measure Propagation",
+    "volume": "12",
+    "year": "2011"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We demonstrate that there are machine learning algorithms that can achieve success for two separate tasks simultaneously, namely the tasks of classification and bipartite ranking. This means that advantages gained from solving one task can be carried over to the other task, such as the ability to obtain conditional density estimates, and an order-of-magnitude reduction in computational time for training the algorithm. It also means that some algorithms are robust to the choice of evaluation metric used; they can theoretically perform well when performance is measured either by a misclassification error or by a statistic of the ROC curve (such as the area under the curve). Specifically, we provide such an equivalence relationship between a generalization of Freund et al.'s RankBoost algorithm, called the \"P-Norm Push,\" and a particular cost-sensitive classification algorithm that generalizes AdaBoost, which we call \"P-Classification.\" We discuss and validate the potential benefits of this equivalence relationship, and perform controlled experiments to understand P-Classification's empirical performance.  There is no established equivalence relationship for logistic regression and its ranking counterpart, so we introduce a logistic-regression-style algorithm that aims in between classification and ranking, and has promising experimental performance with respect to both tasks.",
+    "authors": [
+        "&#350;eyda Ertekin",
+        "Cynthia Rudin"
+    ],
+    "id": "ertekin11a",
+    "issue": 88,
+    "pages": [
+        2905,
+        2929
+    ],
+    "title": "On Equivalence Relationships Between Classification and Ranking Algorithms",
+    "volume": "12",
+    "year": "2011"
+}

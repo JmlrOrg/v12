@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper describes the ecosystem of R add-on packages developed around the infrastructure provided by the package <b>arules</b>. The packages provide comprehensive functionality for analyzing interesting patterns including frequent itemsets, association rules, frequent sequences and for building applications like associative classification. After discussing the ecosystem's design we illustrate the ease of mining and visualizing rules with a short example.",
+    "authors": [
+        "Michael Hahsler",
+        "Sudheer Chelluboina",
+        "Kurt Hornik",
+        "Christian Buchta"
+    ],
+    "id": "hahsler11a",
+    "issue": 56,
+    "pages": [
+        2021,
+        2025
+    ],
+    "title": "The arules R-Package Ecosystem: Analyzing Interesting Patterns from Large Transaction Data Sets",
+    "volume": "12",
+    "year": "2011"
+}

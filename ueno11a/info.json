@@ -1,0 +1,18 @@
+{
+    "abstract": "Since the invention of temporal difference (TD) learning (Sutton, 1988), many new algorithms for model-free policy evaluation have been proposed.  Although they have brought much progress in practical applications of reinforcement learning (RL), there still remain fundamental problems concerning statistical properties of the value function estimation.  To solve these problems, we introduce a new framework, <i>semiparametric statistical inference</i>, to model-free policy evaluation.  This framework generalizes TD learning and its extensions, and allows us to investigate statistical properties of both of batch and online learning procedures for the value function estimation in a unified way in terms of <i>estimating functions</i>.  Furthermore, based on this framework, we derive an optimal estimating function with the <i>minimum asymptotic variance</i> and propose batch and online learning algorithms  which achieve the optimality.",
+    "authors": [
+        "Tsuyoshi Ueno",
+        "Shin-ichi Maeda",
+        "Motoaki Kawanabe",
+        "Shin Ishii"
+    ],
+    "id": "ueno11a",
+    "issue": 55,
+    "pages": [
+        1977,
+        2020
+    ],
+    "title": "Generalized TD Learning",
+    "volume": "12",
+    "year": "2011"
+}

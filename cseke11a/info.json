@@ -1,0 +1,16 @@
+{
+    "abstract": "We consider the problem of improving the Gaussian approximate posterior marginals computed by expectation propagation and the Laplace method in latent Gaussian models and propose methods that are similar in spirit to the Laplace approximation of Tierney and Kadane (1986).  We show that in the case of sparse Gaussian models, the computational complexity of expectation propagation can be made comparable to that of the Laplace method by using a parallel updating scheme. In some cases, expectation propagation gives excellent estimates where the Laplace approximation fails. Inspired by bounds on the correct marginals, we arrive at factorized approximations, which can be applied on top of both expectation propagation and the Laplace method. The factorized approximations can give nearly indistinguishable results from the non-factorized approximations and their computational complexity scales linearly with the number of variables.  We experienced that the expectation propagation based marginal approximations we introduce are typically more  accurate than the methods of similar complexity proposed by Rue et al. (2009).",
+    "authors": [
+        "Botond Cseke",
+        "Tom Heskes"
+    ],
+    "id": "cseke11a",
+    "issue": 12,
+    "pages": [
+        417,
+        454
+    ],
+    "title": "Approximate Marginals in Latent Gaussian Models",
+    "volume": "12",
+    "year": "2011"
+}

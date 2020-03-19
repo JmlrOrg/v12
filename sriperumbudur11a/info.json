@@ -1,0 +1,17 @@
+{
+    "abstract": "Over the last few years, two different notions of positive definite (pd) kernels---universal and characteristic---have been developing in parallel in machine learning: universal kernels are proposed in the context of achieving the Bayes risk by kernel-based classification/regression algorithms while characteristic kernels are introduced in the context of distinguishing probability measures by embedding them into a reproducing kernel Hilbert space (RKHS). However, the relation between these two notions is not well understood. The main contribution of this paper is to clarify the relation between universal and characteristic kernels by presenting a unifying study relating them to RKHS embedding of measures, in addition to clarifying their relation to other common notions of strictly pd, conditionally strictly pd and <i>integrally strictly pd</i> kernels. For <i>radial</i> kernels on <i>&#8476;<sup>d</sup></i>, all these notions are shown to be equivalent.",
+    "authors": [
+        "Bharath K. Sriperumbudur",
+        "Kenji Fukumizu",
+        "Gert R.G. Lanckriet"
+    ],
+    "id": "sriperumbudur11a",
+    "issue": 69,
+    "pages": [
+        2389,
+        2410
+    ],
+    "title": "Universality, Characteristic Kernels and RKHS Embedding of Measures",
+    "volume": "12",
+    "year": "2011"
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "Bayesian learning methods have recently been shown to provide an elegant solution to the exploration-exploitation trade-off in reinforcement learning. However most investigations of Bayesian reinforcement learning to date focus on the standard Markov Decision Processes (MDPs).  The primary focus of this paper is to extend these ideas to the case of partially observable domains, by introducing the Bayes-Adaptive Partially Observable Markov Decision Processes. This new framework can be used to simultaneously (1) learn a model of the POMDP domain through interaction with the environment, (2) track the state of the system under partial observability, and (3) plan (near-)optimal sequences of actions. An important contribution of this paper is to provide theoretical results showing how the model can be finitely approximated while preserving good learning performance. We present approximate algorithms for belief tracking and planning in this model, as well as empirical results that illustrate how the model estimate and agent's return improve as a function of experience.",
+    "authors": [
+        "St&#233;phane Ross",
+        "Joelle Pineau",
+        "Brahim Chaib-draa",
+        "Pierre Kreitmann"
+    ],
+    "id": "ross11a",
+    "issue": 47,
+    "pages": [
+        1729,
+        1770
+    ],
+    "title": "A Bayesian Approach for Learning and Planning in Partially Observable Markov Decision Processes",
+    "volume": "12",
+    "year": "2011"
+}

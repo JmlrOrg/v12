@@ -1,0 +1,18 @@
+{
+    "abstract": "This article presents and evaluates <i>best-match learning</i>, a new approach to reinforcement learning that  trades off the sample efficiency of model-based methods with the space efficiency of model-free methods.  Best-match learning works by approximating the solution to a set of <i>best-match equations</i>, which combine a sparse model with a model-free Q-value function constructed from samples not used by the model.  We prove that, unlike regular sparse model-based methods, best-match learning is guaranteed to converge to the optimal Q-values in the tabular case.  Empirical results demonstrate that best-match learning can substantially outperform regular sparse model-based methods, as well as several model-free methods that strive to improve the sample efficiency of temporal-difference methods. In addition, we demonstrate that best-match learning can be successfully combined with function approximation.",
+    "authors": [
+        "Harm van Seijen",
+        "Shimon Whiteson",
+        "Hado van Hasselt",
+        "Marco Wiering"
+    ],
+    "id": "vanseijen11a",
+    "issue": 58,
+    "pages": [
+        2045,
+        2094
+    ],
+    "title": "Exploiting Best-Match Equations for Efficient Reinforcement Learning",
+    "volume": "12",
+    "year": "2011"
+}

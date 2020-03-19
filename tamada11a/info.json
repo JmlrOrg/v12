@@ -1,0 +1,17 @@
+{
+    "abstract": "We present a parallel algorithm for the score-based optimal structure search of Bayesian networks.  This algorithm is based on a dynamic programming (DP) algorithm having <i>O(n &#8901; 2<sup>n</sup>)</i> time and space complexity, which is known to be the fastest algorithm for the optimal structure search of networks with <i>n</i> nodes.  The bottleneck of the problem is the memory requirement, and therefore, the algorithm is currently applicable for up to a few tens of nodes.  While the recently proposed algorithm overcomes this limitation by a space-time trade-off, our proposed algorithm realizes direct parallelization of the original DP algorithm with <i>O(n<sup>&#963;</sup>)</i> time and space overhead calculations, where <i>&#963;>0</i> controls the communication-space trade-off.  The overall time and space complexity is <i>O(n<sup>&#963;+1</sup> 2<sup>n</sup>)</i>.  This algorithm splits the search space so that the required communication between independent calculations is minimal.  Because of this advantage, our algorithm can run on distributed memory supercomputers.  Through computational experiments, we confirmed that our algorithm can run in parallel using up to 256 processors with a parallelization efficiency of 0.74, compared to the original DP algorithm with a single processor.  We also demonstrate optimal structure search for a 32-node network without any constraints, which is the largest network search presented in literature.",
+    "authors": [
+        "Yoshinori Tamada",
+        "Seiya Imoto",
+        "Satoru Miyano"
+    ],
+    "id": "tamada11a",
+    "issue": 72,
+    "pages": [
+        2437,
+        2459
+    ],
+    "title": "Parallel Algorithm for Learning Optimal Bayesian Network Structure",
+    "volume": "12",
+    "year": "2011"
+}

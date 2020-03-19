@@ -1,0 +1,16 @@
+{
+    "abstract": "We present a class of graphical models for directly representing the joint cumulative distribution function (CDF) of many random variables, called  <i>cumulative distribution networks</i> (CDNs).  Unlike graphs for probability density and mass functions, for CDFs the marginal probabilities for any subset of variables are obtained by computing limits of functions in the model, and conditional probabilities correspond to computing mixed derivatives.  We will show that the conditional independence properties in a CDN are distinct from the conditional independence properties of directed, undirected and factor graphs, but include the conditional independence properties of bi-directed graphs.  In order to perform inference in such models, we describe the `derivative-sum-product' (DSP) message-passing algorithm in which messages correspond to derivatives of the joint CDF.  We will then apply CDNs to the problem of learning to rank players in multiplayer team-based games and suggest several future directions for research.",
+    "authors": [
+        "Jim C. Huang",
+        "Brendan J. Frey"
+    ],
+    "id": "huang11a",
+    "issue": 9,
+    "pages": [
+        301,
+        348
+    ],
+    "title": "Cumulative Distribution Networks and the Derivative-sum-product Algorithm: Models and Inference for Cumulative Distribution Functions on Graphs",
+    "volume": "12",
+    "year": "2011"
+}

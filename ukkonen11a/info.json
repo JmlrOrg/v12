@@ -1,0 +1,15 @@
+{
+    "abstract": "We consider the problem of clustering a set of chains to <i>k</i> clusters.  A chain is a totally ordered subset of a finite set of items.  Chains are an intuitive way to express preferences over a set of alternatives, as well as a useful representation of ratings in situations where the item-specific scores are either difficult to obtain, too noisy due to measurement error, or simply not as relevant as the order that they induce over the items.  First we adapt the classical <i>k</i>-means for chains by proposing a suitable distance function and a centroid structure.  We also present two different approaches for mapping chains to a vector space.  The first one is related to the planted partition model, while the second one has an intuitive geometrical interpretation.  Finally we discuss a randomization test for assessing the significance of a clustering.  To this end we present an MCMC algorithm for sampling random sets of chains that share certain properties with the original data.  The methods are studied in a series of experiments using real and artificial data.  Results indicate that the methods produce interesting clusterings, and for certain types of inputs improve upon previous work on clustering algorithms for orders.",
+    "authors": [
+        "Antti Ukkonen"
+    ],
+    "id": "ukkonen11a",
+    "issue": 37,
+    "pages": [
+        1389,
+        1423
+    ],
+    "title": "Clustering Algorithms for Chains",
+    "volume": "12",
+    "year": "2011"
+}

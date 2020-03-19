@@ -1,0 +1,17 @@
+{
+    "abstract": "In hierarchical classification, class labels are structured, that is each label value corresponds to one non-root node in a tree, where the inter-class relationship for classification is specified by directed paths of the tree. In such a situation, the focus has been on how to leverage the inter-class relationship to enhance the performance of flat classification, which ignores such dependency.  This is critical when the number of classes becomes large relative to the sample size. This paper considers single-path or partial-path hierarchical classification, where only one path is permitted from the root to a leaf node. A large margin method is introduced based on a new concept of generalized margins with respect to hierarchy. For implementation, we consider support vector machines and &#968;-learning. Numerical and theoretical analyses suggest that the proposed method achieves the desired objective and compares favorably against strong competitors in the literature, including its flat counterparts.  Finally, an application to gene function prediction is discussed.",
+    "authors": [
+        "Huixin Wang",
+        "Xiaotong Shen",
+        "Wei Pan"
+    ],
+    "id": "wang11c",
+    "issue": 81,
+    "pages": [
+        2721,
+        2748
+    ],
+    "title": "Large Margin Hierarchical Classification with Mutually Exclusive Class Membership",
+    "volume": "12",
+    "year": "2011"
+}

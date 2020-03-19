@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper studies the task of learning transformation models for ranking problems, ordinal regression and survival analysis.  The present contribution describes a machine learning approach termed MINLIP. The key insight is to relate ranking criteria as the Area Under the Curve to monotone transformation functions.  Consequently, the notion of a Lipschitz smoothness constant is found to be useful for complexity control for learning transformation models, much in a similar vein as the 'margin' is for Support Vector Machines for classification. The use of this model structure in the context of high dimensional data, as well as for estimating non-linear, and additive models based on primal-dual kernel machines,  and for sparse models is indicated.  Given <i>n</i> observations, the present method solves a quadratic program existing of <i>O(n)</i> constraints and <i>O(n)</i> unknowns, where most existing risk minimization approaches to ranking problems typically result in algorithms with <i>O(n<sup>2</sup>)</i> constraints or unknowns. We specify the MINLIP method for three different cases: the first one concerns the preference learning problem. Secondly it is specified how to adapt the method to ordinal regression with a finite set of ordered outcomes. Finally, it is shown how the method can be used in the context of survival analysis where one models failure times, typically subject to censoring. The current approach is found to be particularly useful in this context as it can handle, in contrast with the standard statistical model for analyzing survival data, all types of censoring in a straightforward way, and because of the explicit relation with the Proportional Hazard and Accelerated Failure Time models. The advantage of the current method is illustrated on different benchmark data sets, as well as for estimating a model for cancer survival based on different micro-array and clinical data sets.",
+    "authors": [
+        "Vanya Van Belle",
+        "Kristiaan Pelckmans",
+        "Johan A. K. Suykens",
+        "Sabine Van Huffel"
+    ],
+    "id": "vanbelle11a",
+    "issue": 22,
+    "pages": [
+        819,
+        862
+    ],
+    "title": "Learning Transformation Models for Ranking and Survival Analysis",
+    "volume": "12",
+    "year": "2011"
+}

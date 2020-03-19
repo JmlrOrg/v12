@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper describes MSVMpack, an open source software package dedicated to our generic model of <i>multi-class</i> support vector machine.  All four multi-class support vector machines (M-SVMs) proposed so far in the literature appear as instances of this model. MSVMpack provides for them the first unified implementation and offers a convenient basis to develop other instances.  This is also the first parallel implementation for M-SVMs.  The package consists in a set of command-line tools with a callable library.  The documentation includes a tutorial, a user's guide and a developer's guide.",
+    "authors": [
+        "Fabien Lauer",
+        "Yann Guermeur"
+    ],
+    "id": "lauer11a",
+    "issue": 65,
+    "pages": [
+        2293,
+        2296
+    ],
+    "title": "MSVMpack: A Multi-Class Support Vector Machine Package",
+    "volume": "12",
+    "year": "2011"
+}

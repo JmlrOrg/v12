@@ -1,0 +1,16 @@
+{
+    "abstract": "Principal curves are defined as self-consistent <i>smooth</i> curves passing through the <i>middle</i> of the data, and they have been used in many applications of machine learning as a generalization, dimensionality reduction and a feature extraction tool. We redefine principal curves and surfaces in terms of the gradient and the Hessian of the probability density estimate. This provides a geometric understanding of the principal curves and surfaces, as well as a unifying view for clustering, principal curve fitting and manifold learning by regarding those as principal manifolds of different intrinsic dimensionalities. The theory does not impose any particular density estimation method can be used with any density estimator that gives continuous first and second derivatives. Therefore, we first present our principal curve/surface definition without assuming any particular density estimation method. Afterwards, we develop practical algorithms for the commonly used kernel density estimation (KDE) and Gaussian mixture models (GMM). Results of these algorithms are presented in notional data sets as well as real applications with comparisons to other approaches in the principal curve literature. All in all, we present a novel theoretical understanding of principal curves and surfaces, practical algorithms as general purpose machine learning tools, and applications of these algorithms to several practical problems.",
+    "authors": [
+        "Umut Ozertem",
+        "Deniz Erdogmus"
+    ],
+    "id": "ozertem11a",
+    "issue": 33,
+    "pages": [
+        1249,
+        1286
+    ],
+    "title": "Locally Defined Principal Curves and Surfaces",
+    "volume": "12",
+    "year": "2011"
+}

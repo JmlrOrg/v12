@@ -1,0 +1,17 @@
+{
+    "abstract": "We propose Dirichlet Process mixtures of Generalized Linear Models (DP-GLM), a new class of methods for nonparametric regression.  Given a data set of input-response pairs, the DP-GLM produces a global model of the joint distribution through a mixture of local generalized linear models.  DP-GLMs allow both continuous and categorical inputs, and can model the same class of responses that can be modeled with a generalized linear model.  We study the properties of the DP-GLM, and show why it provides better predictions and density estimates than existing Dirichlet process mixture regression models.  We give conditions for weak consistency of the joint distribution and pointwise consistency of the regression estimate.",
+    "authors": [
+        "Lauren A. Hannah",
+        "David M. Blei",
+        "Warren B. Powell"
+    ],
+    "id": "hannah11a",
+    "issue": 53,
+    "pages": [
+        1923,
+        1953
+    ],
+    "title": "Dirichlet Process Mixtures of Generalized Linear Models",
+    "volume": "12",
+    "year": "2011"
+}

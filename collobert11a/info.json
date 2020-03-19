@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose a unified neural network architecture and learning algorithm that can be applied to various natural language processing tasks including part-of-speech tagging, chunking, named entity recognition, and semantic role labeling.  This versatility is achieved by trying to avoid task-specific engineering and therefore disregarding a lot of prior knowledge.  Instead of exploiting man-made input features carefully optimized for each task, our system learns internal representations on the basis of vast amounts of mostly unlabeled training data.  This work is then used as a basis for building a freely available tagging system with good performance and minimal computational requirements.",
+    "authors": [
+        "Ronan Collobert",
+        "Jason Weston",
+        "L&#233;on Bottou",
+        "Michael Karlen",
+        "Koray Kavukcuoglu",
+        "Pavel Kuksa"
+    ],
+    "id": "collobert11a",
+    "issue": 75,
+    "pages": [
+        2493,
+        2537
+    ],
+    "title": "Natural Language Processing (Almost) from Scratch",
+    "volume": "12",
+    "year": "2011"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "Value function approximation methods have been successfully used in many applications, but the prevailing techniques often lack useful <i>a priori</i> error bounds. We propose a new <i>approximate bilinear programming</i> formulation of value function approximation, which employs global optimization. The formulation provides strong a priori guarantees on both robust and expected policy loss by minimizing specific norms of the Bellman residual. Solving a bilinear program optimally is NP-hard, but this worst-case complexity is unavoidable because the Bellman-residual minimization itself is NP-hard. We describe and analyze the formulation as well as a simple approximate algorithm for solving bilinear programs. The analysis shows that this algorithm offers a <i>convergent</i> generalization of approximate policy iteration. We also briefly analyze the behavior of bilinear programming algorithms under incomplete samples. Finally, we demonstrate that the proposed approach can consistently minimize the Bellman residual on simple benchmark problems.",
+    "authors": [
+        "Marek Petrik",
+        "Shlomo Zilberstein"
+    ],
+    "id": "petrik11a",
+    "issue": 91,
+    "pages": [
+        3027,
+        3063
+    ],
+    "title": "Robust Approximate Bilinear Programming for Value Function Approximation",
+    "volume": "12",
+    "year": "2011"
+}

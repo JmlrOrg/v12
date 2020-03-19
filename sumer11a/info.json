@@ -1,0 +1,18 @@
+{
+    "abstract": "Many algorithms and applications involve repeatedly solving variations of the same inference problem, for example to introduce new evidence to the model or to change conditional dependencies. As the model is updated, the goal of <i>adaptive inference</i> is to take advantage of previously computed quantities to perform inference more rapidly than from scratch.  In this paper, we present algorithms for adaptive exact inference on general graphs that can be used to efficiently compute marginals and update MAP configurations under arbitrary changes to the input factor graph and its associated elimination tree. After a linear time preprocessing step, our approach enables updates to the model and the computation of any marginal in time that is logarithmic in the size of the input model. Moreover, in contrast to max-product our approach can also be used to update MAP configurations in time that is roughly proportional to the number of updated entries, rather than the size of the input model.  To evaluate the practical effectiveness of our algorithms, we implement and test them using synthetic data as well as for two real-world computational biology applications. Our experiments show that adaptive inference can achieve substantial speedups over performing complete inference as the model undergoes small changes over time.",
+    "authors": [
+        "&#214;zg&#252;r S&#252;mer",
+        "Umut A. Acar",
+        "Alexander T. Ihler",
+        "Ramgopal R. Mettu"
+    ],
+    "id": "sumer11a",
+    "issue": 96,
+    "pages": [
+        3147,
+        3186
+    ],
+    "title": "Adaptive Exact Inference in Graphical Models",
+    "volume": "12",
+    "year": "2011"
+}

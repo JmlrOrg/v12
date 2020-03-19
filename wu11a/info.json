@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper points out that many search relevance models in information retrieval, such as the Vector Space Model, BM25 and Language Models for Information Retrieval, can be viewed as a similarity function between pairs of objects of different types, referred to as an S-function. An S-function is specifically defined as the dot product between the images of two objects in a Hilbert space mapped from two different input spaces. One advantage of taking this view is that one can take a unified and principled approach to address the issues with regard to search relevance. The paper then proposes employing a kernel method to learn a robust relevance model as an S-function, which can effectively deal with the term mismatch problem, one of the biggest challenges in search.  The kernel method exploits a positive semi-definite kernel referred to as an S-kernel. The paper shows that when using an S-kernel the model learned by the kernel method is guaranteed to be an S-function. The paper then gives more general principles for constructing S-kernels. A specific implementation of the kernel method is proposed using the Ranking SVM techniques and click-through data. The proposed approach is employed to learn a relevance model as an extension of BM25, referred to as Robust BM25.  Experimental results on web search and enterprise search data show that Robust BM25 significantly outperforms baseline methods and can successfully tackle the term mismatch problem.",
+    "authors": [
+        "Wei Wu",
+        "Jun Xu",
+        "Hang Li",
+        "Satoshi Oyama"
+    ],
+    "id": "wu11a",
+    "issue": 39,
+    "pages": [
+        1429,
+        1458
+    ],
+    "title": "Learning a Robust Relevance Model for Search Using Kernel Methods",
+    "volume": "12",
+    "year": "2011"
+}

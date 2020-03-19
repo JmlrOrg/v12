@@ -1,0 +1,15 @@
+{
+    "abstract": "The standard Bayesian Information Criterion (BIC) is derived under regularity conditions which are not always satisfied in the case of graphical models with hidden variables. In this paper we derive the BIC for the binary graphical tree models where all the inner nodes of a tree represent binary hidden variables. This provides an extension of a similar formula given by Rusakov and Geiger for naive Bayes models. The main tool used in this paper is the connection between the growth behavior of marginal likelihood integrals and the real log-canonical threshold.",
+    "authors": [
+        "Piotr Zwiernik"
+    ],
+    "id": "zwiernik11a",
+    "issue": 100,
+    "pages": [
+        3283,
+        3310
+    ],
+    "title": "An Asymptotic Behaviour of the Marginal Likelihood for General Markov Models",
+    "volume": "12",
+    "year": "2011"
+}

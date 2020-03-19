@@ -1,0 +1,17 @@
+{
+    "abstract": "Previous studies of <i>Non-Parametric Kernel Learning</i> (NPKL) usually formulate the learning task as a Semi-Definite Programming (SDP) problem that is often solved by some general purpose SDP solvers. However, for <i>N</i> data examples, the time complexity of NPKL using a standard interior-point SDP solver could be as high as <i>O(N<sup>6.5</sup>)</i>, which prohibits NPKL methods applicable to real applications, even for data sets of moderate size. In this paper, we present a family of efficient NPKL algorithms, termed \"<b>SimpleNPKL</b>\", which can learn non-parametric kernels from a large set of pairwise constraints efficiently. In particular, we propose two efficient SimpleNPKL algorithms. One is SimpleNPKL algorithm with linear loss, which enjoys a <i>closed-form</i> solution that can be efficiently computed by the <i>Lanczos</i> sparse eigen decomposition technique. Another one is SimpleNPKL algorithm with other loss functions (including square hinge loss, hinge loss, square loss) that can be re-formulated as a saddle-point optimization problem, which can be further resolved by a fast iterative algorithm. In contrast to the previous NPKL approaches, our empirical results show that the proposed new technique, maintaining the same accuracy, is significantly more efficient and scalable. Finally, we also demonstrate that the proposed new technique is also applicable to speed up many kernel learning tasks, including <i>colored maximum variance unfolding</i>, <i>minimum volume embedding</i>, and <i>structure preserving embedding</i>.",
+    "authors": [
+        "Jinfeng Zhuang",
+        "Ivor W. Tsang",
+        "Steven C.H. Hoi"
+    ],
+    "id": "zhuang11a",
+    "issue": 35,
+    "pages": [
+        1313,
+        1347
+    ],
+    "title": "A Family of Simple Non-Parametric Kernel Learning Algorithms",
+    "volume": "12",
+    "year": "2011"
+}

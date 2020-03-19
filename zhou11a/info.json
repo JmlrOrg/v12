@@ -1,0 +1,18 @@
+{
+    "abstract": "Undirected graphs are often used to describe high dimensional distributions. Under sparsity conditions, the graph can be estimated using <i><i>l</i><sub>1</sub></i>-penalization methods.  We propose and study the following method. We combine a multiple regression approach with ideas of thresholding and refitting: first we infer a sparse undirected graphical model structure via thresholding of each among many <i><i>l</i><sub>1</sub></i>-norm penalized regression functions; we then estimate the covariance matrix and its inverse using the maximum likelihood estimator.  We show that under suitable conditions, this approach yields consistent estimation in terms of graphical structure and fast convergence rates with respect to the operator and Frobenius norm for the covariance matrix and its inverse.  We also derive an explicit bound for the Kullback Leibler divergence.",
+    "authors": [
+        "Shuheng Zhou",
+        "Philipp R&#252;timann",
+        "Min Xu",
+        "Peter B&#252;hlmann"
+    ],
+    "id": "zhou11a",
+    "issue": 90,
+    "pages": [
+        2975,
+        3026
+    ],
+    "title": "High-dimensional Covariance Estimation Based On Gaussian Graphical Models",
+    "volume": "12",
+    "year": "2011"
+}

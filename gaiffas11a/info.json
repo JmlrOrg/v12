@@ -1,0 +1,16 @@
+{
+    "abstract": "Given a finite set <i>F</i> of functions and a learning sample, the aim of an aggregation procedure is to have a risk as close as possible to risk of the best function in <i>F</i>. Up to now, optimal aggregation procedures are convex combinations of every elements of <i>F</i>. In this paper, we prove that optimal aggregation procedures combining only two functions in <i>F</i> exist. Such algorithms are of particular interest when <i>F</i> contains many irrelevant functions that should not appear in the aggregation procedure. Since selectors are suboptimal aggregation procedures, this proves that two is the minimal number of elements of <i>F</i> required for the construction of an optimal aggregation procedure in every situations. Then, we perform a numerical study for the problem of selection of the regularization parameters of the Lasso and the Elastic-net estimators. We compare on simulated examples our aggregation algorithms to aggregation with exponential weights, to Mallow's <i>C<sub>p</sub></i> and to cross-validation selection procedures.",
+    "authors": [
+        "St&#233;phane Ga&#239;ffas",
+        "Guillaume Lecu&#233;"
+    ],
+    "id": "gaiffas11a",
+    "issue": 49,
+    "pages": [
+        1813,
+        1833
+    ],
+    "title": "Hyper-Sparse Optimal Aggregation",
+    "volume": "12",
+    "year": "2011"
+}

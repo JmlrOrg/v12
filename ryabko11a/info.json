@@ -1,0 +1,15 @@
+{
+    "abstract": "A sequence <i>x<sub>1</sub>,...,x<sub>n</sub>,...</i> of discrete-valued observations is generated according to some unknown probabilistic law (measure) <i>&#956;</i>.  After observing each outcome, one is required to give  conditional probabilities of the next observation.  The realizable case is when the  measure  <i>&#956;</i> belongs to an arbitrary but known class <i>C</i>  of  process measures.  The non-realizable case is when <i>&#956;</i> is completely arbitrary, but the prediction performance is measured with respect to a given set <i>C</i> of process measures.  We are interested in the relations between these problems and between their solutions, as well as in characterizing the cases when a solution exists and finding these solutions.  We show that if the quality of prediction is measured using the total variation distance, then these problems coincide, while if it is measured using the expected average KL divergence, then they are different. For some of the formalizations we also show that when a solution exists it can be obtained as a Bayes mixture over a countable subset of <i>C</i>.  We also obtain several characterization of those sets <i>C</i> for which solutions to the considered problems exist.  As an illustration to the general results obtained, we show that a solution to the non-realizable case of the sequence prediction problem exists for the set of all finite-memory processes, but does not exist for the set of all stationary processes.  It should be emphasized that the framework  is completely general: the  processes measures considered are not required to be i.i.d., mixing, stationary, or to belong to any parametric family.",
+    "authors": [
+        "Daniil Ryabko"
+    ],
+    "id": "ryabko11a",
+    "issue": 61,
+    "pages": [
+        2161,
+        2180
+    ],
+    "title": "On the Relation between Realizable and Nonrealizable Cases of the Sequence Prediction Problem",
+    "volume": "12",
+    "year": "2011"
+}

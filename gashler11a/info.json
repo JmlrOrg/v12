@@ -1,0 +1,15 @@
+{
+    "abstract": "We present a breadth-oriented collection of cross-platform command-line tools for researchers in machine learning called <i>Waffles</i>. The <i>Waffles</i> tools are designed to offer a broad spectrum of functionality in a manner that is friendly for scripted automation. All functionality is also available in a C++ class library. <i>Waffles</i> is available under the GNU Lesser General Public License.",
+    "authors": [
+        "Michael Gashler"
+    ],
+    "id": "gashler11a",
+    "issue": 68,
+    "pages": [
+        2383,
+        2387
+    ],
+    "title": "<i>Waffles</i>: A Machine Learning Toolkit",
+    "volume": "12",
+    "year": "2011"
+}

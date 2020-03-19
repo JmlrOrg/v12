@@ -1,0 +1,19 @@
+{
+    "abstract": "The Stationary Subspace Analysis (SSA) algorithm linearly factorizes a high-dimensional time series into stationary and non-stationary components.  The SSA Toolbox is a platform-independent efficient stand-alone implementation of the SSA algorithm with a graphical user interface written in Java, that can also be invoked from the command line and from Matlab. The graphical interface guides the user through the whole process; data can be imported and exported from comma separated values (CSV) and Matlab's .mat files.",
+    "authors": [
+        "Jan Saputra M&#252;ller",
+        "Paul von B&#252;nau",
+        "Frank C. Meinecke",
+        "Franz J. Kir&#225;ly",
+        "Klaus-Robert M&#252;ller"
+    ],
+    "id": "mueller11a",
+    "issue": 92,
+    "pages": [
+        3065,
+        3069
+    ],
+    "title": "The Stationary Subspace Analysis Toolbox",
+    "volume": "12",
+    "year": "2011"
+}

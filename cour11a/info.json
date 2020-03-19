@@ -1,0 +1,17 @@
+{
+    "abstract": "We address the problem of partially-labeled multiclass classification, where instead of a single label per instance, the algorithm is given a candidate set of labels, only one of which is correct.  Our setting is motivated by a common scenario in many image and video collections, where only partial access to labels is available.  The goal is to learn a classifier that can disambiguate the partially-labeled training instances, and generalize to unseen data.  We define an intuitive property of the data distribution that sharply characterizes the ability to learn in this setting and show that effective learning is possible even when all the data is only partially labeled.  Exploiting this property of the data, we propose a convex learning formulation based on minimization of a loss function appropriate for the partial label setting.  We analyze the conditions under which our loss function is asymptotically consistent, as well as its generalization and transductive performance.  We apply our framework to identifying faces culled from web news sources and to naming characters in TV series and movies; in particular, we annotated and experimented on a very large video data set and achieve <i>6%</i> error for character naming on 16 episodes of the TV series <i>Lost</i>.",
+    "authors": [
+        "Timothee Cour",
+        "Ben Sapp",
+        "Ben Taskar"
+    ],
+    "id": "cour11a",
+    "issue": 41,
+    "pages": [
+        1501,
+        1536
+    ],
+    "title": "Learning from Partial Labels",
+    "volume": "12",
+    "year": "2011"
+}

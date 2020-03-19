@@ -1,0 +1,19 @@
+{
+    "abstract": "In this article, we propose a family of efficient kernels for large graphs with discrete node labels. Key to our method is a rapid feature extraction scheme based on the Weisfeiler-Lehman test of isomorphism on graphs. It maps the original graph to a sequence of graphs, whose node attributes capture topological and label information. A family of kernels can be defined based on this Weisfeiler-Lehman sequence of graphs, including a highly efficient kernel comparing subtree-like patterns. Its runtime scales only linearly in the number of edges of the graphs and the length of the Weisfeiler-Lehman graph sequence.  In our experimental evaluation, our kernels outperform state-of-the-art graph kernels on several graph classification benchmark data sets in terms of accuracy and runtime.  Our kernels open the door to large-scale applications of graph kernels in various disciplines such as computational biology and social network analysis.",
+    "authors": [
+        "Nino Shervashidze",
+        "Pascal Schweitzer",
+        "Erik Jan van Leeuwen",
+        "Kurt Mehlhorn",
+        "Karsten M. Borgwardt"
+    ],
+    "id": "shervashidze11a",
+    "issue": 76,
+    "pages": [
+        2539,
+        2561
+    ],
+    "title": "Weisfeiler-Lehman Graph Kernels",
+    "volume": "12",
+    "year": "2011"
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "Motivated by the problem of effectively executing clustering algorithms on very large data sets, we address a model for large scale distributed clustering methods. To this end, we briefly recall some standards on the quantization problem and some results on the almost sure convergence of the competitive learning vector quantization (CLVQ) procedure. A general model for linear distributed asynchronous algorithms well adapted to several parallel computing architectures is also discussed. Our approach brings together this scalable model and the CLVQ algorithm, and we call the resulting technique the distributed asynchronous learning vector quantization algorithm (DALVQ). An in-depth analysis of the almost sure convergence of the DALVQ algorithm is performed. A striking result is that we prove that the multiple versions of the quantizers distributed among the processors in the parallel architecture asymptotically reach a consensus almost surely. Furthermore, we also show that these versions converge almost surely towards the same nearly optimal value for the quantization criterion.",
+    "authors": [
+        "Beno&#238;t Patra"
+    ],
+    "id": "patra11a",
+    "issue": 104,
+    "pages": [
+        3431,
+        3466
+    ],
+    "title": "Convergence of Distributed Asynchronous Learning Vector Quantization Algorithms",
+    "volume": "12",
+    "year": "2011"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "In the last few years, due to the growing ubiquity of unlabeled data, much effort has been spent by the machine learning community to develop better understanding and improve the quality of classifiers exploiting unlabeled data.  Following the manifold regularization approach, Laplacian Support Vector Machines (LapSVMs) have shown the state of the art performance in semi-supervised classification.  In this paper we present two strategies to solve the <i>primal</i> LapSVM problem, in order to overcome some issues of the original <i>dual</i> formulation.  In particular, training a LapSVM in the primal can be efficiently performed with preconditioned conjugate gradient.  We speed up training by using an early stopping strategy based on the prediction on unlabeled data or, if available, on labeled validation examples. This allows the algorithm to quickly compute approximate solutions with roughly the same classification accuracy as the optimal ones, considerably reducing the training time.  The computational complexity of the training algorithm is reduced from <i>O(n<sup>3</sup>)</i> to <i>O(kn<sup>2</sup>)</i>, where <i>n</i> is the combined number of labeled and unlabeled examples and <i>k</i> is empirically evaluated to be significantly smaller than <i>n</i>.  Due to its simplicity, training LapSVM in the primal can be the starting point for  additional enhancements of the original LapSVM formulation, such as those for dealing with large data sets.  We present an extensive experimental evaluation on real world data showing the benefits of the proposed approach.",
+    "authors": [
+        "Stefano Melacci",
+        "Mikhail Belkin"
+    ],
+    "id": "melacci11a",
+    "issue": 30,
+    "pages": [
+        1149,
+        1184
+    ],
+    "title": "Laplacian Support Vector Machines  Trained in the Primal",
+    "volume": "12",
+    "year": "2011"
+}

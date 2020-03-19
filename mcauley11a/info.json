@@ -1,0 +1,16 @@
+{
+    "abstract": "<i>Maximum A Posteriori</i> inference in graphical models is often solved via message-passing algorithms, such as the junction-tree algorithm or loopy belief-propagation. The exact solution to this problem is well-known to be exponential in the size of the maximal cliques of the triangulated model, while approximate inference is typically exponential in the size of the model's factors. In this paper, we take advantage of the fact that many models have maximal cliques that are larger than their constituent factors, and also of the fact that many factors consist only of latent variables (i.e., they do not depend on an observation). This is a common case in a wide variety of applications that deal with grid-, tree-, and ring-structured models. In such cases, we are able to decrease the exponent of complexity for message-passing by <i>0.5</i> for both exact <i>and</i> approximate inference. We demonstrate that message-passing operations in such models are equivalent to some variant of matrix multiplication in the tropical semiring, for which we offer an <i>O(N<sup>2.5</sup>)</i> <i>expected-case</i> solution.",
+    "authors": [
+        "Julian J. McAuley",
+        "Tib&#233;rio S. Caetano"
+    ],
+    "id": "mcauley11a",
+    "issue": 36,
+    "pages": [
+        1349,
+        1388
+    ],
+    "title": "Faster Algorithms for Max-Product Message-Passing",
+    "volume": "12",
+    "year": "2011"
+}

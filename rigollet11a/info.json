@@ -1,0 +1,16 @@
+{
+    "abstract": "Motivated by problems of anomaly detection, this paper implements the Neyman-Pearson paradigm to deal with asymmetric errors in binary classification with a convex loss <i>&#966;</i>. Given a finite collection of classifiers, we combine them and obtain a new classifier  that satisfies simultaneously the two following properties with high probability: (i) its <i>&#966;</i>-type I error is below a pre-specified level and (ii), it has <i>&#966;</i>-type II error close to the minimum possible. The proposed classifier is obtained by minimizing an empirical convex objective with an empirical convex constraint. The novelty of the method is that the classifier output by this computationally feasible program is shown to satisfy the original constraint on type I error. New techniques to handle such problems are developed and they have consequences on chance constrained programming. We also evaluate the price to pay in terms of type II error for being conservative on type I error.",
+    "authors": [
+        "Philippe Rigollet",
+        "Xin Tong"
+    ],
+    "id": "rigollet11a",
+    "issue": 85,
+    "pages": [
+        2831,
+        2855
+    ],
+    "title": "Neyman-Pearson Classification, Convexity and Stochastic Constraints",
+    "volume": "12",
+    "year": "2011"
+}

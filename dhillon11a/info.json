@@ -1,0 +1,17 @@
+{
+    "abstract": "We propose a framework MIC (Multiple Inclusion Criterion) for learning sparse models based on the information theoretic Minimum Description Length (MDL) principle. MIC provides an elegant way of incorporating arbitrary sparsity patterns in the feature space by using  two-part MDL coding schemes. We present MIC based models for the problems of grouped feature selection (MIC-GROUP)  and multi-task feature selection (MIC-MULTI). MIC-GROUP assumes that the features are divided into groups and induces two level sparsity, selecting a subset of the feature groups, and also selecting features within each selected group.  MIC-MULTI applies when there are multiple related tasks that share the same set of potentially predictive features. It also induces two level sparsity, selecting a subset of the features, and then selecting which of the tasks each feature should be added to.  Lastly, we propose a model, TRANSFEAT, that can be used to transfer knowledge from a set of previously learned tasks to a new task that is expected to share similar features.  All three methods are designed for selecting a small set of predictive features from a large pool of candidate features. We demonstrate the effectiveness of our approach with experimental results on data from genomics and from word sense disambiguation problems.",
+    "authors": [
+        "Paramveer S. Dhillon",
+        "Dean Foster",
+        "Lyle H. Ungar"
+    ],
+    "id": "dhillon11a",
+    "issue": 15,
+    "pages": [
+        525,
+        564
+    ],
+    "title": "Minimum Description Length Penalization for Group and Multi-Task Sparse Learning",
+    "volume": "12",
+    "year": "2011"
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "It is a well-known problem that obtaining a correct bandwidth and/or smoothing parameter in nonparametric regression is difficult in the presence of correlated errors. There exist a wide variety of methods coping with this problem, but they all critically depend on a tuning procedure which requires accurate information about the correlation structure. We propose a bandwidth selection procedure based on bimodal kernels which successfully removes the correlation without requiring any prior knowledge about its structure and its parameters. Further, we show that the form of the kernel is very important when errors are correlated which is in contrast to the independent and identically distributed (i.i.d.) case. Finally, some extensions are proposed to use the proposed criterion in support vector machines and least squares support vector machines for regression.",
+    "authors": [
+        "Kris De Brabanter",
+        "Jos De Brabanter",
+        "Johan A.K. Suykens",
+        "Bart De Moor"
+    ],
+    "id": "debrabanter11a",
+    "issue": 54,
+    "pages": [
+        1955,
+        1976
+    ],
+    "title": "Kernel Regression in the Presence of Correlated Errors",
+    "volume": "12",
+    "year": "2011"
+}

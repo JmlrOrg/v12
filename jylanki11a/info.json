@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper considers the robust and efficient implementation of Gaussian process regression with a Student-<i>t</i> observation model, which has a non-log-concave likelihood. The challenge with the Student-<i>t</i> model is the analytically intractable inference which is why several approximative methods have been proposed. Expectation propagation (EP) has been found to be a very accurate method in many empirical studies but the convergence of EP is known to be problematic with models containing non-log-concave site functions.  In this paper we illustrate the situations where standard EP fails to converge and review different modifications and alternative algorithms for improving the convergence. We demonstrate that convergence problems may occur during the type-II maximum a posteriori (MAP) estimation of the hyperparameters and show that standard EP may not converge in the MAP values with some difficult data sets. We present a robust implementation which relies primarily on parallel EP updates and uses a moment-matching-based double-loop algorithm with adaptively selected step size in difficult cases. The predictive performance of EP is compared with Laplace, variational Bayes, and Markov chain Monte Carlo approximations.",
+    "authors": [
+        "Pasi Jyl&#228;nki",
+        "Jarno Vanhatalo",
+        "Aki Vehtari"
+    ],
+    "id": "jylanki11a",
+    "issue": 98,
+    "pages": [
+        3227,
+        3257
+    ],
+    "title": "Robust Gaussian Process Regression with a Student-<i>t</i> Likelihood",
+    "volume": "12",
+    "year": "2011"
+}

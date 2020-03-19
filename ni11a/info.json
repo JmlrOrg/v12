@@ -1,0 +1,18 @@
+{
+    "abstract": "We propose a distance phrase reordering model (DPR) for statistical machine translation (SMT), where the aim is to learn the grammatical rules and context dependent changes using a phrase reordering classification framework. We consider a variety of machine learning techniques, including state-of-the-art structured prediction methods. Techniques are compared and evaluated on a Chinese-English corpus, a language pair known for the high reordering characteristics which cannot be adequately captured with current models. In the reordering classification task, the method significantly outperforms the baseline against which it was tested, and further, when integrated as a component of the state-of-the-art machine translation system, MOSES, it achieves improvement in translation results.",
+    "authors": [
+        "Yizhao Ni",
+        "Craig Saunders",
+        "Sandor Szedmak",
+        "Mahesan Niranjan"
+    ],
+    "id": "ni11a",
+    "issue": 0,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Exploitation of Machine Learning Techniques in Modelling Phrase Movements for Machine Translation",
+    "volume": "12",
+    "year": "2011"
+}

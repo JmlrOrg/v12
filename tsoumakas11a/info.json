@@ -1,0 +1,18 @@
+{
+    "abstract": "MULAN is a Java library for learning from multi-label data. It offers a variety of classification, ranking, thresholding and dimensionality reduction algorithms, as well as algorithms for learning from hierarchically structured labels. In addition, it contains an evaluation framework that calculates a rich variety of performance measures.",
+    "authors": [
+        "Grigorios Tsoumakas",
+        "Eleftherios Spyromitros-Xioufis",
+        "Jozef Vilcek",
+        "Ioannis Vlahavas"
+    ],
+    "id": "tsoumakas11a",
+    "issue": 70,
+    "pages": [
+        2411,
+        2414
+    ],
+    "title": "MULAN: A Java Library for Multi-Label Learning",
+    "volume": "12",
+    "year": "2011"
+}

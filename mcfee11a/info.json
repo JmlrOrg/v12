@@ -1,0 +1,16 @@
+{
+    "abstract": "In many applications involving multi-media data, the definition of similarity between items is integral to several key tasks, including nearest-neighbor retrieval, classification, and recommendation.  Data in such regimes typically exhibits multiple modalities, such as acoustic and visual content of video.  Integrating such heterogeneous data to form a holistic similarity space is therefore a key challenge to be overcome in many real-world applications.\n<br>\nWe present a novel multiple kernel learning technique for integrating heterogeneous data into a single, unified similarity space.  Our algorithm learns an optimal ensemble of kernel transformations which conform to measurements of human perceptual similarity, as expressed by relative comparisons.  To cope with the ubiquitous problems of subjectivity and inconsistency in multi-media similarity, we develop graph-based techniques to filter similarity measurements, resulting in a simplified and robust training procedure.",
+    "authors": [
+        "Brian McFee",
+        "Gert Lanckriet"
+    ],
+    "id": "mcfee11a",
+    "issue": 14,
+    "pages": [
+        491,
+        523
+    ],
+    "title": "Learning Multi-modal Similarity",
+    "volume": "12",
+    "year": "2011"
+}
