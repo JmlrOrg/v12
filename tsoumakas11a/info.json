@@ -14,5 +14,9 @@
     ],
     "title": "MULAN: A Java Library for Multi-Label Learning",
     "volume": "12",
-    "year": "2011"
+    "year": "2011",
+    "special_issue": ["MLOSS"],
+    "extra_links": [
+        ["code", "http://mulan.sourceforge.net"]
+      ]
 }

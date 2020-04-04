@@ -1,7 +1,7 @@
 {
     "abstract": "In this paper, we consider the Group Lasso estimator of the covariance matrix of a stochastic process corrupted by an additive noise. We propose to estimate the covariance matrix in a high-dimensional setting under the assumption that the process has a sparse representation in a large dictionary of basis functions. Using a matrix regression model, we propose a new methodology for high-dimensional covariance matrix estimation based on empirical contrast regularization by a group Lasso penalty. Using such a penalty, the method selects a sparse set of basis functions in the dictionary used to approximate the process, leading to an approximation of the covariance matrix into a low dimensional space. Consistency of the estimator is studied in Frobenius and operator norms and an application to sparse PCA is proposed.",
     "authors": [
-        "J&#233;r&#233;mie Bigot",
+        "J{{\\'e}}r{{\\'e}}mie Bigot",
         "Rolando J. Biscay",
         "Jean-Michel Loubes",
         "Lillian Mu&#241;iz-Alvarez"

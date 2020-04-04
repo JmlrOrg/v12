@@ -1,7 +1,7 @@
 {
     "abstract": "Grammar induction refers to the process of learning grammars and languages from data; this finds a variety of applications in syntactic pattern recognition, the modeling of natural language acquisition, data mining and machine translation. This special topic contains several papers presenting some of recent developments in the area of grammar induction and language learning, as applied to various problems in Natural Language Processing, including supervised and unsupervised parsing and statistical machine translation.",
     "authors": [
-        "Dorota G&#322;owacka",
+        "Dorota G{{\\l}}owacka",
         "John Shawe-Taylor",
         "Alex Clark",
         "Colin de la Higuera",

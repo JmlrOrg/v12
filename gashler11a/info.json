@@ -9,7 +9,11 @@
         2383,
         2387
     ],
-    "title": "<i>Waffles</i>: A Machine Learning Toolkit",
+    "title": "Waffles: A Machine Learning Toolkit",
     "volume": "12",
-    "year": "2011"
+    "year": "2011",
+    "special_issue": ["MLOSS"],
+    "extra_links": [
+        ["code", "https://github.com/mikegashler/waffles"]
+      ]
 }
