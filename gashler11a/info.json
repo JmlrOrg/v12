@@ -4,7 +4,7 @@
         "Michael Gashler"
     ],
     "id": "gashler11a",
-    "issue": 68,
+    "issue": 69,
     "pages": [
         2383,
         2387
@@ -13,7 +13,5 @@
     "volume": "12",
     "year": "2011",
     "special_issue": "MLOSS",
-    "extra_links": [
-        ["code", "https://github.com/mikegashler/waffles"]
-      ]
+    "extra_links": [["code", "https://github.com/mikegashler/waffles"]]
 }
