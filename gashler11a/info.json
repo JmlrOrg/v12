@@ -12,7 +12,7 @@
     "title": "Waffles: A Machine Learning Toolkit",
     "volume": "12",
     "year": "2011",
-    "special_issue": ["MLOSS"],
+    "special_issue": "MLOSS",
     "extra_links": [
         ["code", "https://github.com/mikegashler/waffles"]
       ]

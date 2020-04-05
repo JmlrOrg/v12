@@ -27,7 +27,7 @@
     "title": "Scikit-learn: Machine Learning in Python",
     "volume": "12",
     "year": "2011",
-    "special_issue" : ["MLOSS"],
+    "special_issue" : "MLOSS",
     "extra_links": [
         ["webpage", "https://scikit-learn.org"],
         ["code", "https://github.com/scikit-learn/scikit-learn"]
