@@ -13,5 +13,6 @@
     "title": "MSVMpack: A Multi-Class Support Vector Machine Package",
     "volume": "12",
     "year": "2011",
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [["code", "https://members.loria.fr/FLauer/files/MSVMpack/MSVMpack.html"]]
 }

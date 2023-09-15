@@ -16,5 +16,6 @@
     "title": "The Stationary Subspace Analysis Toolbox",
     "volume": "12",
     "year": "2011",
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [["code", "https://github.com/paulbuenau/SSA-Toolbox"]]
 }
